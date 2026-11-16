@@ -1,0 +1,21 @@
+name: cripto_convertidor
+description: "Reto 4: convertidor de criptomonedas en tiempo real con CoinGecko."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Si "flutter pub get" se queja de una versión, ejecuta: flutter pub add http
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
