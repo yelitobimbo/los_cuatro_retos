@@ -60,12 +60,9 @@ En Chrome, el navegador pide el permiso solo.
 
 ## Evidencias
 
-![Estructura](capturas/01_estructura.png)
-![All tests passed](capturas/02_tests.png)
+**La app funcionando en el celular** (clima actual de Dolores Hidalgo con la API de OpenWeatherMap):
 
-| Cargando | Clima de Dolores | Con mi ubicación |
-|---|---|---|
-| ![Cargando](capturas/03_cargando.png) | ![Clima](capturas/04_clima.png) | ![Ubicación](capturas/05_ubicacion.png) |
+<img src="capturas/app_celular.jpg" alt="Clima minimalista en el celular" width="300">
 
 ## Lo que practiqué
 
