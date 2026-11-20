@@ -40,12 +40,9 @@ flutter run
 
 ## 📸 Evidencias
 
-![Estructura](capturas/01_estructura.png)
-![All tests passed](capturas/02_tests.png)
+**La app funcionando en el celular** (100 dólares convertidos a BTC, ETH y SOL):
 
-| Precios | Conversión de otro monto | Monto inválido |
-|---|---|---|
-| ![Precios](capturas/03_precios.png) | ![Conversión](capturas/04_conversion.png) | ![Inválido](capturas/05_invalido.png) |
+<img src="capturas/app_celular.jpg" alt="Convertidor de cripto en el celular" width="300">
 
 ## 📚 Lo que practiqué
 
