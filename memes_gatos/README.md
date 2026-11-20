@@ -1,4 +1,4 @@
-# 🐱 Reto 2 · Generador de memes de gatos con filtros
+# Reto 2 · Generador de memes de gatos con filtros
 
 App que usa la API de **Cataas (Cats as a Service)**: escribes una frase y aparece encima de la foto de un gato al azar. Puedes cambiar el tamaño y color de la letra y aplicar filtros.
 
@@ -10,7 +10,7 @@ App que usa la API de **Cataas (Cats as a Service)**: escribes una frase y apare
 | **Docente** | Prof. Anastacio Rodríguez García |
 | **Universidad** | UTNG |
 
-## 🗺️ Estructura
+## Estructura
 
 ```
 memes_gatos/
@@ -21,7 +21,7 @@ memes_gatos/
     url_gato_test.dart <- 8 pruebas
 ```
 
-## 🔗 Cómo cambia la URL
+## Cómo cambia la URL
 
 | Lo que eliges | URL |
 |---|---|
@@ -31,7 +31,7 @@ memes_gatos/
 
 El parámetro `semilla` cambia cada vez que tocas "Otro gato" para que Flutter no muestre la imagen guardada en caché. No necesita clave.
 
-## ▶️ Cómo ejecutarlo
+## Cómo ejecutarlo
 
 Abre la carpeta `memes_gatos` en VS Code (**File > Open Folder**) y en la terminal:
 
@@ -45,7 +45,7 @@ flutter run
 
 > En Chrome, si la imagen no carga, prueba en el emulador de Android. Si tu versión de Flutter marca error en la línea `webHtmlElementStrategy`, bórrala.
 
-## 📸 Evidencias
+## Evidencias
 
 ![Estructura](capturas/01_estructura.png)
 ![All tests passed](capturas/02_tests.png)
@@ -54,7 +54,7 @@ flutter run
 |---|---|---|
 | ![Meme](capturas/03_meme.png) | ![Color](capturas/04_color.png) | ![Filtro](capturas/05_filtro.png) |
 
-## 📚 Lo que practiqué
+## Lo que practiqué
 
 - Construir una URL dinámica con `Uri.https` (codifica espacios y acentos).
 - `setState` para que la imagen cambie al instante.

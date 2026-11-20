@@ -1,4 +1,4 @@
-# 🍿 Reto 1 · El recomendador de películas del fin de semana
+# Reto 1 · El recomendador de películas del fin de semana
 
 App que consume la API de **The Movie Database (TMDB)** y recomienda películas según tu estado de ánimo, o muestra las tendencias de la semana. Tiene un botón para escoger una al azar.
 
@@ -10,7 +10,7 @@ App que consume la API de **The Movie Database (TMDB)** y recomienda películas 
 | **Docente** | Prof. Anastacio Rodríguez García |
 | **Universidad** | UTNG |
 
-## 🗺️ Estructura
+## Estructura
 
 ```
 peliculas_finde/
@@ -27,13 +27,13 @@ peliculas_finde/
 
 | Estado de ánimo | Género |
 |---|---|
-| 😄 Feliz | Comedia (35) |
-| 🤠 Aventurero | Acción (28) |
-| 😍 Romántico | Romance (10749) |
-| 😱 Con ganas de miedo | Terror (27) |
-| 🤔 Pensativo | Drama (18) |
+| Feliz | Comedia (35) |
+| Aventurero | Acción (28) |
+| Romántico | Romance (10749) |
+| Con ganas de miedo | Terror (27) |
+| Pensativo | Drama (18) |
 
-## 🔑 Clave de TMDB
+## Clave de TMDB
 
 1. Crea una cuenta gratis en themoviedb.org y pide una clave de API (Settings > API).
 2. Pega la **API Key** en `secrets.json`:
@@ -44,7 +44,7 @@ peliculas_finde/
 
 Sin clave, la app corre en **modo demo** con 3 películas de ejemplo.
 
-## ▶️ Cómo ejecutarlo
+## Cómo ejecutarlo
 
 Abre la carpeta `peliculas_finde` en VS Code (**File > Open Folder**) y en la terminal:
 
@@ -56,13 +56,13 @@ flutter test                    # 10 pruebas, sin internet → "All tests passed
 flutter run --dart-define-from-file=secrets.json
 ```
 
-## 📸 Evidencias
+## Evidencias
 
 **La app funcionando en el celular** (modo demo, sin clave de TMDB):
 
 <img src="capturas/app_celular.jpg" alt="Películas del finde en el celular" width="300">
 
-## 📚 Lo que practiqué
+## Lo que practiqué
 
 - Peticiones HTTP con el paquete `http` y parámetros en la URL (`Uri.https`).
 - Convertir JSON a objetos (`Pelicula.desdeJson`).

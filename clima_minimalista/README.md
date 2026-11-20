@@ -1,6 +1,6 @@
-# 🌦️ Reto 3 · App del clima minimalista
+# Reto 3 · App del clima minimalista
 
-App que consulta **OpenWeatherMap** y muestra el clima actual de tu ciudad (temperatura, sensación, humedad y viento). El *plus*: botón 📍 que usa `geolocator` para detectar tu ubicación.
+App que consulta **OpenWeatherMap** y muestra el clima actual de tu ciudad (temperatura, sensación, humedad y viento). El *plus*: botón de ubicación que usa `geolocator` para detectar tu ubicación.
 
 | | |
 |---|---|
@@ -10,7 +10,7 @@ App que consulta **OpenWeatherMap** y muestra el clima actual de tu ciudad (temp
 | **Docente** | Prof. Anastacio Rodríguez García |
 | **Universidad** | UTNG |
 
-## 🗺️ Estructura
+## Estructura
 
 ```
 clima_minimalista/
@@ -25,7 +25,7 @@ clima_minimalista/
   secrets.json.example
 ```
 
-## 🔑 Clave de OpenWeatherMap
+## Clave de OpenWeatherMap
 
 1. Crea una cuenta gratis en openweathermap.org y copia tu clave en **API keys**.
 2. Pégala en `secrets.json`:
@@ -35,7 +35,7 @@ clima_minimalista/
 3. Una clave nueva puede tardar un rato (hasta un par de horas) en activarse. Mientras, la app dice "Clave inválida".
 4. `secrets.json` está en `.gitignore`: nunca lo subas.
 
-## ▶️ Cómo ejecutarlo
+## Cómo ejecutarlo
 
 Abre la carpeta `clima_minimalista` en VS Code (**File > Open Folder**) y en la terminal:
 
@@ -47,7 +47,7 @@ flutter test                    # 12 pruebas, sin internet → "All tests passed
 flutter run --dart-define-from-file=secrets.json
 ```
 
-### Permisos para el botón 📍 (Android)
+### Permisos para el botón de ubicación (Android)
 
 En `android/app/src/main/AndroidManifest.xml`, antes de `<application`:
 
@@ -58,7 +58,7 @@ En `android/app/src/main/AndroidManifest.xml`, antes de `<application`:
 
 En Chrome, el navegador pide el permiso solo.
 
-## 📸 Evidencias
+## Evidencias
 
 ![Estructura](capturas/01_estructura.png)
 ![All tests passed](capturas/02_tests.png)
@@ -67,7 +67,7 @@ En Chrome, el navegador pide el permiso solo.
 |---|---|---|
 | ![Cargando](capturas/03_cargando.png) | ![Clima](capturas/04_clima.png) | ![Ubicación](capturas/05_ubicacion.png) |
 
-## 📚 Lo que practiqué
+## Lo que practiqué
 
 - Parámetros `units=metric` y `lang=es` para grados Celsius y textos en español.
 - Formatear datos del clima (redondeo, mayúscula inicial, m/s a km/h).

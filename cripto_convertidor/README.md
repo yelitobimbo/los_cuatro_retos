@@ -1,4 +1,4 @@
-# 🪙 Reto 4 · Convertidor de criptomonedas en tiempo real
+# Reto 4 · Convertidor de criptomonedas en tiempo real
 
 App que usa la API pública de **CoinGecko** (sin clave) para mostrar el precio de Bitcoin, Ethereum y Solana en dólares. Escribes un monto en USD y ves cuánto de cada cripto podrías comprar.
 
@@ -10,7 +10,7 @@ App que usa la API pública de **CoinGecko** (sin clave) para mostrar el precio 
 | **Docente** | Prof. Anastacio Rodríguez García |
 | **Universidad** | UTNG |
 
-## 🗺️ Estructura
+## Estructura
 
 ```
 cripto_convertidor/
@@ -24,7 +24,7 @@ cripto_convertidor/
 
 Endpoint: `https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd`
 
-## ▶️ Cómo ejecutarlo
+## Cómo ejecutarlo
 
 Abre la carpeta `cripto_convertidor` en VS Code (**File > Open Folder**) y en la terminal:
 
@@ -36,15 +36,15 @@ flutter test                    # 10 pruebas, sin internet → "All tests passed
 flutter run
 ```
 
-> La API pública tiene límite de consultas. Si sale "Muchas consultas seguidas", espera un minuto y toca 🔄.
+> La API pública tiene límite de consultas. Si sale "Muchas consultas seguidas", espera un minuto y toca el botón de actualizar.
 
-## 📸 Evidencias
+## Evidencias
 
 **La app funcionando en el celular** (100 dólares convertidos a BTC, ETH y SOL):
 
 <img src="capturas/app_celular.jpg" alt="Convertidor de cripto en el celular" width="300">
 
-## 📚 Lo que practiqué
+## Lo que practiqué
 
 - Convertir texto a número con `double.tryParse` (acepta punto o coma).
 - Operaciones con datos dinámicos: `dólares / precio`.
