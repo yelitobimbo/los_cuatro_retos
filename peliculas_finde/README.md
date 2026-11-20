@@ -58,12 +58,9 @@ flutter run --dart-define-from-file=secrets.json
 
 ## 📸 Evidencias
 
-![Estructura](capturas/01_estructura.png)
-![All tests passed](capturas/02_tests.png)
+**La app funcionando en el celular** (modo demo, sin clave de TMDB):
 
-| Tendencias | Por estado de ánimo | Película al azar |
-|---|---|---|
-| ![Tendencias](capturas/03_tendencias.png) | ![Ánimo](capturas/04_animo.png) | ![Al azar](capturas/05_azar.png) |
+<img src="capturas/app_celular.jpg" alt="Películas del finde en el celular" width="300">
 
 ## 📚 Lo que practiqué
 
