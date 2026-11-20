@@ -47,12 +47,9 @@ flutter run
 
 ## Evidencias
 
-![Estructura](capturas/01_estructura.png)
-![All tests passed](capturas/02_tests.png)
+**La app funcionando en el celular** (meme "Hola UTNG", letra 40, color blanco):
 
-| Meme con texto | Otro color y tamaño | Con filtro |
-|---|---|---|
-| ![Meme](capturas/03_meme.png) | ![Color](capturas/04_color.png) | ![Filtro](capturas/05_filtro.png) |
+<img src="capturas/app_celular.jpg" alt="Generador de memes de gatos en el celular" width="300">
 
 ## Lo que practiqué
 
